@@ -1,0 +1,135 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    border: 1px solid Silver;
+    text-align: center;
+    background: Beige url("imagenes/fondobaigeitson.jpeg"); 
+}
+
+.contenedorGrid {
+    display: grid;
+    grid-template-rows: 120px calc(100vh - 238px) 100px;
+    grid-template-columns: 150px calc(100vw - 170px);
+}
+
+/* Barra de navegacion */
+nav {
+    position: absolute;
+    top: 122px;
+    left: 0;
+    width: 150px;
+    height: calc(100% - 124px);
+    border: 1px solid Silver;
+    background: Beige url("imagenes/fondobaigeitson.jpeg"); 
+}
+
+
+main {
+    position: absolute;
+    height: calc(100% - 154px);
+    width: calc(100% - 154px);
+    top: 152px;
+    left: 152px;
+    overflow: scroll;
+}
+
+
+img#logo {
+    float: left;
+}
+
+img#foto {
+    float: center;
+}
+
+a#email {
+    float: right;
+    border: 1px solid Silver;
+}
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width:150px;
+}
+
+nav li {
+    position: relative;
+    width:150px;
+    float:left;
+    clear:left;
+}
+
+
+nav a {
+    display: block;
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 0 10px;
+    width: 130px;    
+    border-bottom: 1px solid Silver;
+}
+
+nav a:link {
+    color: Blue; 
+}
+
+nav a:visited {
+    color: fuchsia; 
+}
+
+nav a:hover {
+    color: Black;
+    background-color: lightgray; 
+    font-weight: bold;
+}
+
+
+main    h1{
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: aqua;
+}
+
+th {
+    border: 1px solid black;
+    background-color: gray;
+}
+
+tr:nth-child(even) {
+    background-color: aqua;
+} 
+
+ th a:hover {
+    color: Black;
+    background-color: lightgray; 
+font-style: italic;
+}
+
+td a:hover {
+    color: Black;
+    background-color: lightgray; 
+    font-style: italic;
+}
+
+
+
+
+footer {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    border: 1px solid Silver;
+    background: Beige url("imagenes/fondobaigeitson.jpeg"); 
+}
